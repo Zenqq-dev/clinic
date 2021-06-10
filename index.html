@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="rus">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6fb6611a8c.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.7.0/swiper-bundle.min.js" integrity="sha512-qqdD5ZLIGB5PCqCk1OD8nFBr/ngB5w+Uw35RE/Ivt5DK35xl1PFVkuOgAbqFpvtoxX6MpRGLmIqixzdhFOJhnA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.7.0/swiper-bundle.css" integrity="sha512-lfjMBfE41+3a9XCiuXCjaE4CkvpPOQ5P2qZSZclW9iHsMSvn50dh6ZuB5O8g7uDlCIKFKPqYo8JIka9Rh8HXow==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.7.0/swiper-bundle.min.css" integrity="sha512-x9WWODH0qw+aXoiT69XzI4WX2MXpqvVGY+O9HpJ4wbjEubpjDIM5CwTrU/OFJg7tSMbBMpgwz2Qp6xlUsk+FgA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+    <body>
+        <div style="padding: 100px 100px 100px 100px;"></div>
+        <div class="banner">
+            <ul class="banner__social">
+                <li class="social__items"><a href=""><i class="fab fa-instagram"></i></a></li>
+                <li class="social__items"><a href=""><i class="fab fa-vk"></i></a></li>
+                <li class="social__items"><a href=""><i class="fab fa-telegram-plane"></i></a></li>
+                <li class="social__items"><a href=""><i class="fab fa-whatsapp"></i></a></li>
+                <li class="social__items"><a href=""><i class="fab fa-viber"></i></a></li>
+            </ul>
+            <div class="banner__container container">
+                <div class="banner__woman"><img src="img/woman.png" alt=""></div>
+                <div class="banner__content">
+                    <div class="banner__title">Стоматологический <br> Check-Up + </div>
+                    <div class="banner__subtitle">заключение искусственного <br> интеллекта Diagnocat</div>
+                    <div class="banner__time">Только до  1 июня!</div>
+                    <div class="banner__price">Всего <br> 5 000 ₽</div>
+                    <a href="" class="banner__btn btn">Подробнее</a>
+                </div>
+                <div class="banner__man"><img src="img/man.png" alt=""></div>
+            </div>
+        </div>
+        <div class="links container">
+            <ul class="links__list">
+                <div class="links__item"><a href=""> Описание</a></div>
+                <div class="links__item"><a href=""> Наши врачи</a></div>
+                <div class="links__item"><a href=""> Отзывы</a></div>
+            </ul>
+        </div>
+        <div class="advantages container">
+            <div class="advantages__row">
+                <div class="advantages__item">
+                    <div class="advantages__img"><img src="img/adv1.jpg" alt=""></div>
+                    <div class="advantages__text">
+                        <div class="advantages__title">Экономия времени</div>
+                        <div class="advantages__subtitle">С Dental check-up вы точно знаете, какие процедуры будете 
+                        проходить и сколько времени потребуется потратить - всего 1,5 часа!</div>
+                    </div>
+                </div>
+                <div class="advantages__item">
+                    <div class="advantages__img"><img src="img/adv2.jpg" alt=""></div>
+                    <div class="advantages__text">
+                        <div class="advantages__title">Врачебный консилиум</div>
+                        <div class="advantages__subtitle">Возможность получить всестороннюю оценку результатов исследования
+                        от стоматологов всех специализаций: хирурга, ортопеда, ортодонта, пародонтолога, терапевта. </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="advantages__row">
+                <div class="advantages__item">
+                    <div class="advantages__text">
+                        <div class="advantages__title">Выгодное решение</div>
+                        <div class="advantages__subtitle">Check-up имеет фиксированную стоимость 
+                            и экономически выгоднее, чем прохождение каждой процедуры в отдельности.</div>
+                    </div>
+                    <div class="advantages__img"><img src="img/adv3.jpg" alt=""></div>
+                </div>
+                <div class="advantages__item">
+                    <div class="advantages__text">
+                        <div class="advantages__title">Экспертиза главного врача</div>
+                        <div class="advantages__subtitle">Экспертная расшифровка снимков и рекомендации стоматолога, 
+                            главного врача клиники, с 20-летним опытом.</div>
+                    </div>
+                    <div class="advantages__img"><img src="img/adv4.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+        <div class="checkup">
+            <div class="checkup__container container _swiper">
+                <div class="checkup__item">
+                        <img class="checkup__img" src="img/ch1.png" alt="">
+                        <div class="checkup__content">
+                            <div class="checkup__title">Как проходит стоматологический Check Up</div>
+                            <div class="pagination">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <div class="checkup__text">
+                                <h1>Осмотр и консультация врача- <br>
+                                    стоматолога</h1>
+                                <p>Знакомство с врачом, анкетирование пациента на предмет 
+                                    противопоказаний и других важных факторов стоматологического 
+                                    здоровья.</p>
+                            </div>
+                        </div>
+                </div>
+                <div class="checkup__item">
+                    <img class="checkup__img" src="img/ch2.png" alt="">
+                    <div class="checkup__content">
+                        <div class="checkup__title">Как проходит стоматологический Check Up</div>
+                        <div class="pagination">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="checkup__text">
+                            <h1>Фотодиагностика</h1>
+                            <p>ЗДоктор проведет первичный фотопротокол полости рта. 
+                                Это необходимо для фиксации исходной клинической 
+                                ситуации и отслеживания динамики в процессе лечения.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="checkup__item">
+                    <img class="checkup__img" src="img/ch3.png" alt="">
+                    <div class="checkup__content">
+                        <div class="checkup__title">Как проходит стоматологический Check Up</div>
+                        <div class="pagination">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                           <span></span>
+                        </div>
+                        <div class="checkup__text">
+                            <h1>Диагностика состояния пародонта</h1>
+                            <p>Доктор проверит состояние мягких тканей полости рта, 
+                                проведет оценку десневых карманов.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="checkup__item">
+                    <img class="checkup__img" src="img/ch4.png" alt="">
+                    <div class="checkup__content">
+                        <div class="checkup__title">Как проходит стоматологический Check Up</div>
+                        <div class="pagination">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                           <span></span>
+                        </div>
+                        <div class="checkup__text">
+                            <h1>Диагностика твердых тканей на предмет повреждения эмали</h1>
+                            <p>Врач-стоматолог проведет осмотр всех зубов на предмет кариеса и других заболеваний, 
+                            также проверит стираемость зубов и ее соответсвие возрасту пациента.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="checkup__item">
+                    <img class="checkup__img" src="img/ch5.png" alt="">
+                    <div class="checkup__content">
+                        <div class="checkup__title">Как проходит стоматологический Check Up</div>
+                        <div class="pagination">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                           <span></span>
+                        </div>
+                        <div class="checkup__text">
+                            <h1>Компьютерная томограмма <br> с расшифровкой врача рентгенолога</h1>
+                            <p>3D снимки полости рта будут 
+                                оценены главным врачом с 20-летним опытом и врачом рентгенологом,
+                                 который специализируется на расшифровке КТ-снимков в стоматологии.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="checkup__item">
+                    <img class="checkup__img" src="img/ch6.png" alt="">
+                    <div class="checkup__content">
+                        <div class="checkup__title">Как проходит стоматологический Check Up</div>
+                        <div class="pagination">
+                            <span></span>
+                            <span class="_active"></span>
+                            <span></span>
+                            <span></span>
+                           <span></span>
+                        </div>
+                        <div class="checkup__text">
+                            <h1>Подробное заключение с результатами <br> обследования и рекомендации <br> по лечению</h1>
+                            <p>3Точная постановка диагноза и детальная картина вашего стоматологического здоровья на flash-карте/диске/личной почте.
+                               <h1> Вы получите: </h1>
+                                Уверенность в красоте и здоровье своих зубов и в своем стоматологе.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="questions">
+            <div class="questions__content container _spollers">
+                <div class="questions__name">Популярные вопросы</div>
+                <div class="questions__title _spoller">Как часто нужно делать чистку зубов у стоматолога?</div>
+                <div class="questions__body">Зубная нить и ирригатор выполняют несколько разные функции: 
+                    если выбирать что-то одно, я бы предпочел зубную нить, потому что ее удобно брать с собой. 
+                    А если говорить о самостоятельном современном подходе к домашней гигиене, то зубная нить не 
+                    исключает ирригатор, и наоборот. Зубная нить лучше очищает межзубные промежутки от остатков 
+                    пищи, а ирригатор лучше справляется с чисткой зубодесневой борозды и п
+                    атологических карманов.</div>
+                <div class="questions__title _spoller">Как часто нужно делать чистку зубов у стоматолога?</div>
+                <div class="questions__body">Зубная нить и ирригатор выполняют несколько разные функции: 
+                    если выбирать что-то одно, я бы предпочел зубную нить, потому что ее удобно брать с собой. 
+                    А если говорить о самостоятельном современном подходе к домашней гигиене, то зубная нить не 
+                    исключает ирригатор, и наоборот. Зубная нить лучше очищает межзубные промежутки от остатков 
+                    пищи, а ирригатор лучше справляется с чисткой зубодесневой борозды и п
+                    атологических карманов.
+                </div>
+                <div class="questions__title _spoller">Как часто нужно делать чистку зубов у стоматолога?</div>
+                <div class="questions__body">Зубная нить и ирригатор выполняют несколько разные функции: 
+                    если выбирать что-то одно, я бы предпочел зубную нить, потому что ее удобно брать с собой. 
+                    А если говорить о самостоятельном современном подходе к домашней гигиене, то зубная нить не 
+                    исключает ирригатор, и наоборот. Зубная нить лучше очищает межзубные промежутки от остатков 
+                    пищи, а ирригатор лучше справляется с чисткой зубодесневой борозды и п
+                    атологических карманов.
+                </div>
+                <a class="questions__link" href="">Ответы на другие вопросы</a>
+                        
+            </div>
+        </div>
+        <div class="consultation">
+            <div class="consultatin__wrapper container">
+                <div class="consultation__quest">Задать <br> свой вопрос</div>
+                <div class="consultation__column">
+                    <div class="consultatin__row">
+                        <div class="consultation__fill">Заполните форму и мы вам перезвоним</div>
+                    </div>
+                    <div class="consultatin__row">
+                        <div id="name" class="consultation__form">
+                            <input autocomplete="off" type="text" name="form[]" data-error="Ошибка" data-value="" class="input" placeholder="Имя">
+                        </div>
+                        <div id="phone" class="consultation__form">
+                            <input autocomplete="off" type="tel" name="form[]" data-value="Телефон" class="input phone" placeholder="+7 (__) ___-__-__">
+                        </div>
+                        <div class="consultation__btn"><a href="">Получить консультацию</a></div>
+                    </div>
+                    <div class="consultatin__row">
+                        <div class="checkbox">
+                            <input type="checkbox" data-error="Ошибка" class="checkbox__input" value="1" name="check">
+                            <label class="checkbox__text"><span> Отправляя форму, вы даете согласие на обработку ваших <a href=""> персональных данных</a>
+                            и принимаете нашу <a href=""> политику конфиденциальности</a>. Ваши данные будут в безопасности.</span></label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pricelist container">
+            <div class="pricelist__title">Прайс – лист</div>
+            <div class="pricelist__price">
+                <div class="pricelist__name">Стоматологический Check-Up</div>
+                <div class="pricelist__cost">10 000 ₽</div>
+            </div>
+            <div class="pricelist__sales">Только до 15 июня  вы можете получить Check-Up за 5000 ₽!</div>
+        </div>
+        <div class="clinic">
+            <div class="clinic__bg"><img class="clinic__img" src="img/clinic.png" alt=""> <img class="clinik__guys" src="img/guys.png" alt=""></div>
+            <div class="clinic__content">
+                <div class="clinic__name">Медико-стоматологический <br> центр Трилогия</div>
+                <div class="clinic__title">О клинике</div>
+                <div class="clinic__text">
+                    Начало работы нашей клиники относится к 2009г.
+                    В вашем распоряжении 8 оборудованных кабинетов, 27 высококвалифицированных
+                    врачей и самое современное оснащение.
+                    Знания и многолетний опыт наших стоматологов позволяют решать самые сложные
+                    задачи, дарить радость и здоровье нашим пациентам.
+                    В своей работе мы применяем передовые и эффективные методы обезболивания. Поэтому
+                    у нас проходят лечение самые маленькие дети и женщины во время беременности.
+                    В стенах нашего стоматологического центра мы стремимся реализовать принцип комплексного подхода к решению проблемы «в одном кабинете».
+                    А это значит, что люди, которые доверили нам самое важное – свое здоровье, могут быть
+                    уверены в высоком качестве наших услуг.
+                    Такой подход к работе позволяет смело назвать нас стоматологией нового формата и
+                    одной из лучших стоматологий Москвы.
+                    От лица всей нашей дружной команды приглашаю вас вступить в клуб здоровых и
+                    красивых улыбок «Трилогия»! 
+                </div>
+                <div class="clinic__btn"><a href=""> Перейти в Инстаграм</a></div>
+            </div>
+        </div>
+        <div class="form">
+            <div class="form__container container">
+                <div class="form__column">
+                    <div class="form__img"><img src="img/fimg.png" alt=""></div>
+                </div>
+                <div class="form__column">
+                    <div class="form__title">Запишитесь на прием</div>
+                    <div class="form__subtitle">Задайте свой вопрос, заполните форму <br>
+                        или позвоните нам по телефону +7 (499) 112-333-8
+                    </div>
+                    <div class="form__main">
+                        <div class="form__field">
+                            <div class="field__col">
+                                <div id="name" class="form__form">
+                                    <input autocomplete="off" type="text" name="form[]" data-error="Ошибка" data-value="" class="input" placeholder="Имя">
+                                </div>
+                                <div id="phone" class="form__form">
+                                    <input autocomplete="off" type="tel" name="form[]" data-value="Телефон" class="input phone" placeholder="+7 (__) ___-__-__">
+                                </div>
+                                <div id="mail" class="form__form">
+                                    <input autocomplete="off" type="tel" name="form[]" data-value="Телефон" class="input" placeholder="Электронная почта">
+                                </div>
+                            </div>
+                            <div class="field__col">
+                                <div class="com">
+                                    <input autocomplete="off" type="tel" name="form[]" data-value="Телефон" class="input" placeholder="Комментарий">
+                                </div>
+                            </div>
+                        </div>
+                            <div class="field__btn"><a href="">Отправить</a></div>
+                            <div class="form__checkbox">
+                                <input type="checkbox" data-error="Ошибка" class="checkbox__input" value="1" name="check">
+                                <label class="form__checkbox__text"><span> Отправляя форму, вы даете согласие на обработку ваших <a href=""> персональных данных</a>
+                                и принимаете нашу <a href=""> политику конфиденциальности</a>. Ваши данные будут в безопасности.</span></label>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="slider.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="swiper.min.js"></script>
+
+</html>
